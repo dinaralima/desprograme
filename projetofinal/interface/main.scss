@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #773874,
+  "danger": #AA403F,
+  "success": #d3d332
+);
+
+$headings-font-family: 'Playfair Display', serif;
+$headings-font-weight: 800;
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i&display=swap');
