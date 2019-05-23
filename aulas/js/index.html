@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula JS</title>
+</head>
+<body>
+    <script>
+        function mediaIdade(idade1,idade2,idade3){
+            let media = parseInt(idade1) + parseInt(idade2) + parseInt(idade3)/3;
+            return media;
+        }
+        let n1 = prompt("Digite a primeira idade:");
+        let n2 = prompt("Digite a segunda idade:");
+        let n3 = prompt("Digite a terceira idade:");
+        alert(`a média é ${mediaIdade(n1,n2,n3)}`);
+    </script>
+</body>
+</html>
